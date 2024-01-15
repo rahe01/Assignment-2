@@ -179,46 +179,138 @@ span {
     padding: 30px 100px;
 }
 
-.image-container img{
+.image-container img {
     width: 100%;
     height: 100%;
-   
+
 }
 
-.image-container{
+.image-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
 
-.grid-item-1{
+.grid-item-1 {
     grid-column: 1/span 6;
 }
 
-.grid-item-2{
+.grid-item-2 {
     grid-column: 7/ span 6;
 }
 
-.grid-item-3{
+.grid-item-3 {
     grid-column: 1 / span 4;
 }
 
-.grid-item-4{
+.grid-item-4 {
     grid-column: 5 / span 5;
 }
 
-.grid-item-5{
+.grid-item-5 {
     grid-column: 10 / span 3;
 }
 
-.grid-item-6{
+.grid-item-6 {
     grid-column: 1 / span 5;
 }
 
-.grid-item-7{
+.grid-item-7 {
     grid-column: 6 / span 7;
 }
+
+
+
+.choose {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.choose-h1 {
+    color: #131318;
+    text-align: center;
+    font-weight: 800;
+    
+
+}
+
+.choose-p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 30px 100px;
+}
+
+.gr {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-c{
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+.g{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 20px;
+}
+
+.grid-1 {
+    border-radius: 15px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+    grid-column: 1 / span 6;
+}
+
+.grid-2 {
+    border-radius: 15px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+    grid-column: 7 / span 6;
+}
+
+.grid-3 {
+    border-radius: 15px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: 4 / span 6;
+}
+
+
+.discount{
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.letter{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+
+
+.le{
+    padding: 10px 20px;
+}
+
+
+
+
 
 
 
@@ -257,21 +349,31 @@ span {
         padding: 20px;
     }
 
-    .container2{
+    .container2 {
         padding: 20px;
     }
 
-    .con-p{
+    .con-p {
         padding: 10px;
     }
-    .image-container{
+
+    .image-container {
         display: flex;
         flex-direction: column;
-       
+
         gap: 10px;
     }
 
-    
+    .choose , .choose-p{
+        padding: 20px;
+    }
+
+    .g{
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
 
 }
