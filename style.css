@@ -231,7 +231,7 @@ span {
     color: #131318;
     text-align: center;
     font-weight: 800;
-    
+
 
 }
 
@@ -248,7 +248,7 @@ span {
     height: 100%;
 }
 
-.grid-c{
+.grid-c {
     padding: 10px 20px;
 }
 
@@ -260,10 +260,10 @@ span {
 
 
 
-.g{
+.g {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2 , 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -291,22 +291,120 @@ span {
 }
 
 
-.discount{
+.discount {
     width: 100%;
     padding: 50px 100px;
+    display: flex;
+    gap: 30px;
+
 }
 
-.letter{
-    width: 100%;
+.letter {
+    width: 50%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: white;
+    border: 2px solid rgba(255, 84, 0, 1);
+    border-radius: 15px;
+
 }
 
 
 
-.le{
-    padding: 10px 20px;
+.letter-h3 {
+    padding: 30px 0 0 25px;
+    font-weight: 800;
+
 }
+
+.letter-p {
+    color: #5A5A5D;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0 10px 25px;
+
+}
+
+.letter-hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 80%;
+    margin-left: 25px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.input-name {
+    width: 80%px;
+    height: 52px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.input-email {
+    width: 80%px;
+    height: 52px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.letter-img {
+    background-image: url('Images/Rectangle\ 8\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: 50%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.btn-sec{
+    color: white;
+    width: 100%;
+    font-weight: 800;
+}
+
+.btn-primary:hover{
+    
+}
+
+.travel-com{
+    background-color: #FF5400;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    left: 68%;
+    bottom: -60%;
+}
+
+.h{
+    color: #FFF;
+    
+   
+}
+
+.travel-h4{
+    padding: 20px 0 5px 0;
+}
+
+.travel-h2{
+    padding: 0 0 20px 0;
+}
+
+
+
+
+
 
 
 
@@ -364,13 +462,34 @@ span {
         gap: 10px;
     }
 
-    .choose , .choose-p{
+    .choose,
+    .choose-p {
         padding: 20px;
     }
 
-    .g{
+    .g {
         display: flex;
         flex-direction: column;
+    }
+
+    .discount{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .letter{
+        width: 100%;
+        height: 50%;
+    }
+
+    .letter-img{
+        width: 100%;
+       height: 300px;
+        
+    }
+    .travel-com{
+        position: relative;
+        left: 65%;
+        bottom: -50%;
     }
 
 
