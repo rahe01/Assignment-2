@@ -126,6 +126,11 @@ span {
     border: none;
 }
 
+.btn-se{
+    color: #FFF;
+    font-weight: 800;
+}
+
 
 
 
@@ -366,17 +371,15 @@ span {
 
 }
 
-.btn-sec{
+.btn-sec {
     color: white;
     width: 100%;
     font-weight: 800;
 }
 
-.btn-primary:hover{
-    
-}
+.btn-primary:hover {}
 
-.travel-com{
+.travel-com {
     background-color: #FF5400;
     width: 30%;
     text-align: center;
@@ -387,20 +390,58 @@ span {
     bottom: -60%;
 }
 
-.h{
+.h {
     color: #FFF;
-    
-   
+
+
 }
 
-.travel-h4{
+.travel-h4 {
     padding: 20px 0 5px 0;
 }
 
-.travel-h2{
+.travel-h2 {
     padding: 0 0 20px 0;
 }
 
+
+footer {
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    
+}
+
+.f-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+     
+}
+
+.div-p{
+    text-align: center;
+    padding: 30px 150px;
+}
+
+.div-f{
+    display: flex;
+   justify-content: center;
+}
+
+.footer-hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.copy{
+    padding: 30px;
+}
+
+.copy-p{
+
+}
 
 
 
@@ -472,24 +513,30 @@ span {
         flex-direction: column;
     }
 
-    .discount{
+    .discount {
         flex-direction: column;
         padding: 20px;
     }
-    .letter{
+
+    .letter {
         width: 100%;
         height: 50%;
     }
 
-    .letter-img{
+    .letter-img {
         width: 100%;
-       height: 300px;
-        
+        height: 300px;
+
     }
-    .travel-com{
+
+    .travel-com {
         position: relative;
         left: 65%;
         bottom: -50%;
+    }
+
+    .div-p{
+        padding: 20px;
     }
 
 
